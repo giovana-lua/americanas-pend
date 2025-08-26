@@ -5,21 +5,78 @@
 }
 
 header{
-    background-color: red;
+    background-color: #ed0030;;
     display: flex;
     position: fixed;
     height: 100px;
-    width: 100%;
-    justify-content: space-between;
-    
-    
-}
-img{
-    height: 30px;
-    display: flex;
+    width: 100%;   
+    flex-direction: column;
     
 }
 
-li{
+.container{
+    display: flex;
+    justify-content: start;
+    box-shadow: 20px;
+    color: white;
+    list-style: none;
+    
+}
+
+img{
+    width: 250px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+       
+}
+
+
+.buscar{
+    height: 30px;
+    width: 400px;
+    justify-content: center;
+    align-self: center;
+    border-radius: 8px;
+}
+
+.nav-bar{
+    background-color: #ed0030;;
+    height: 60px;
   
 }
+
+.menu{
+    display: flex;
+    color: white;
+    gap: 20px; 
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.nav-bar-menu{
+    background-color: bisque;
+    
+}
+
+.menu2{
+    display: flex;
+    color: grey;
+    gap: 40px;
+    justify-content: center;
+    height: 40px;
+    margin-top: 20px;
+
+}
+
+ul{
+    display: flex;
+    list-style: none;
+    font-weight: 200;
+    
+} 
+
+
+
+
