@@ -5,18 +5,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <title>Americanas</title>
+    <script src="./app.js" defer></script>
     <script src="https://kit.fontawesome.com/787b6dfa4f.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <header>
                  
-    <div class="container">
+    <div class="pesquisa">
         <!-- logo -->
         <img src="./img/logo-americanas.webp" alt="logo">      
      
         <input type="text" name="" id="pesquisa" placeholder="busque seus produtos..." class="buscar">
-        <i class="fa-solid fa-magnifying-glass" style="color: #be3737;"></i>
-
+        <!-- <i class="fa-solid fa-magnifying-glass" style="color: #be3737;"></i> -->
+         <button class="lupa"></button>
+    
 
         <!-- cadastro do usuário -->
         <i class="fa-regular fa-user" style="color: #ffffff;"></i>
@@ -61,13 +63,11 @@
             </ul>
 
         </nav>
-            
-        
-
-
     </header>
     
-   
+   <div class="produtos" id="produtos-container">
+    
+   </div>
    
     
 </body>

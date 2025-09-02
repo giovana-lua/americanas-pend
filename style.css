@@ -14,13 +14,21 @@ header{
     
 }
 
-.container{
+.pesquisa{
     display: flex;
-    justify-content: start;
+    justify-content: center;
     box-shadow: 20px;
     color: white;
     list-style: none;
     
+}
+
+.pesquisa button{
+ background-image: url(img/lupa.svg);
+ width: 20px;
+ height: 20px;
+ justify-content: center;
+ align-items: center;
 }
 
 img{
@@ -38,7 +46,7 @@ img{
     width: 400px;
     justify-content: center;
     align-self: center;
-    border-radius: 8px;
+    border-radius:  8px ;
 }
 
 .nav-bar{
@@ -52,11 +60,13 @@ img{
     color: white;
     gap: 20px; 
     justify-content: center;
+    align-items: center;
     margin-bottom: 10px;
 }
 
 .nav-bar-menu{
-    background-color: bisque;
+    background-color: lightgray;
+    box-shadow: 0 0 2px ;
     
 }
 
